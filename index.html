@@ -3,10 +3,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>homewrok</title>
 </head>
 <body>
-    <h1>hello world</h1>
+        <!-- NAVIGATION SECTION -->
+        <div class="navbar">
+            <div class="nav-logo">
+              <h1 class="img"><i>HOME<span style="color: grey;">WORKS</i></span></h1>
+              <label for="menu" class="icons">
+                <i class="fa-solid fa-bars icon"></i>
+              </label>
+            </div>
+      
+            <div class="nav-link">
+              <input type="checkbox" id="menu" />
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="./pages/firsttask.html" style="white-space: nowrap">Task - 1</a></li>
+                <li>
+                  <a href="./pages/secondtask.html" style="white-space: nowrap"
+                    >task - 2</a
+                  >
+                </li>
+                <li>
+                  <a href="./pages/extra.html" style="white-space: nowrap"
+                    >Extra task</a
+                  >
+                </li>
+              </ul>
+            </div>
+      
+            <!-- <div class="nav-login">
+              <ul>
+                <li><a href="#">Get Started</a></li>
+              </ul>
+            </div> -->
+          </div>
+      
+          <!-- /NAVIGATION SECTION -->
+    <section class="touch">
+        <div class="touch-box">
+            <div class="image">
+                <img src="./images/nature.jpg" alt="">
+            </div>
+            <div class="info">
+                <h1>Stay in touch</h1>
+                <p>Failure will never overtake me if my determination to succeed is strong enough. </p>
+                <form action="">
+                    <select name="" id="">
+                        <option value="1">Switzerland</option>
+                        <option value="2">Polsha</option>
+                        <option value="3">Lyuksumburg</option>
+                        <option value="4">Avstria</option>
+                    </select>
+                    <div class="register">
+                        <div class="input">
+                            <label for="name"></label>
+                            <input type="text" id="name" placeholder="Your name">
+                        </div>
+                        <div class="input">
+                            <label for="email">
+                            </label>
+                            <input type="email" id="email" placeholder="Email">
+                        </div>
+                    </div>
+                    <textarea name="" id="" cols="10" rows="4" placeholder="Description(optional)"></textarea>
+                    <div class="buttonn">
+                        <button type="submit" class="firstbtn">SEND REQUEST</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- /first section -->
+    <br><br><hr><br><br>
+    <!-- second section -->
+
+    <section class="subs">
+
+        <div class="subs-box">
+            <div class="subs-info">
+                <span class="subs-icon">
+                    <i class="fa-solid fa-envelope"></i>
+                </span>
+                <h2>Subscribe to our newsletter</h2>
+                <p>There are many reasons to get down and start to get depressed about your situation. </p>
+                <div class="subs-email">
+                    <label for="emaill"></label>
+                    <input type="email" id="emaill" placeholder="email">
+                </div>
+                <div class="subs-btn">
+                    <button type="submit">SUBSCRIBE</button>
+                </div>
+            </div>
+    
+            <div class="subs-image">
+                <img src="./images/second.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- /SECOND PAGE -->
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <!-- THIRD PAGE -->
+
+    <section class="version">
+
+        <div class="version-box">
+            <div class="version-info">
+                <div class="version-info__desc">
+                    <h3>Try the demo version</h3>
+                </div>
+                <p class="version-desc">There are many reasons to get down and start to get depressed about your situation.</p>
+                <form action="">
+                    <div class="version-input">
+                        <label for="ism"></label>
+                        <input type="text" id="ism" placeholder="Your name">
+                    </div>
+                    <div class="version-input">
+                        <label for="gmail"></label>
+                        <input type="email" id="gmail" placeholder="Email">
+                    </div>
+                    <button type="submit">GET DEMO VERSION</button>
+                </form>
+            </div>
+
+            <div class="version-video">
+                <video src="./images/moto.mp4" controls></video>
+            </div>
+
+        </div>
+
+    </section>
+
+
 </body>
 </html>
